@@ -1,0 +1,50 @@
+{
+  "name": "chrome-canary-experiment-enabler-osx",
+  "version": "1.0.0",
+  "description": "Enable Chrome Canary experimental flags programmatically",
+  "main": "chrome-canary-experiment-enabler-osx.js",
+  "scripts": {
+    "test": "node test.js | tap-mocha-reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameswomack/chrome-canary-experiment-enabler-osx.git"
+  },
+  "bin": {
+    "ccee": "./index.js"
+  },
+  "keywords": [
+    "osx",
+    "chrome",
+    "canary",
+    "experiments",
+    "experimental",
+    "flag",
+    "javascript",
+    "harmony",
+    "canvas"
+  ],
+  "author": "James J. Womack (@james_womack)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jameswomack/chrome-canary-experiment-enabler-osx/issues"
+  },
+  "homepage": "https://github.com/jameswomack/chrome-canary-experiment-enabler-osx#readme",
+  "dependencies": {
+    "assert-plus": "0.2.0",
+    "expand-tilde": "1.2.0",
+    "lodash.clone": "3.0.3",
+    "lodash.defaults": "3.1.2",
+    "lodash.get": "3.7.0",
+    "lodash.isarray": "3.0.4",
+    "lodash.isequal": "3.0.4",
+    "lodash.isobject": "3.0.2",
+    "lodash.set": "3.7.4",
+    "lodash.values": "3.0.0",
+    "write-file-atomic": "1.1.4"
+  },
+  "devDependencies": {
+    "tap": "5.0.0",
+    "tap-mocha-reporter": "0.0.22"
+  }
+}
